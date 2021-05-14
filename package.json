@@ -6,6 +6,8 @@
   "dependencies": {
     "@eosrio/hyperion-stream-client": "^0.4.0-beta.5",
     "axios": "^0.21.1",
+    "dotenv": "^9.0.2",
+    "eosjs": "^21.0.4",
     "fetch": "^1.1.0",
     "node-fetch": "^2.6.1"
   },
