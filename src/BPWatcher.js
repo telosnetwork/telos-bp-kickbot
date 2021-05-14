@@ -93,14 +93,14 @@ class BPWatcher {
   async handleAction(data) {
     if (data.content.act.name == "regproducer")
       await this.postToChannel(
-        `${data.content.producer.toUpperCase()} Registered at block ${
+        `${data.content.act.data.producer.toUpperCase()} Registered at block ${
           data.content.block_num
         }`
       );
 
     if (data.content.act.name == "unregprod")
       await this.postToChannel(
-        `${data.content.producer.toUpperCase()} Unregistered at block ${
+        `${data.content.act.data.producer.toUpperCase()} Unregistered at block ${
           data.content.block_num
         }`
       );
