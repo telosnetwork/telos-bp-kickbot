@@ -4,7 +4,7 @@ const eosjs = require("eosjs");
 const HyperionSocketClient = require("@eosrio/hyperion-stream-client").default;
 const INCREASE_EMOJI = "🚨";
 const DECREASE_EMOJI = "🟢";
-
+const PRODUCER_POLL_INTERVAL = 10 * 1000;  // 10 seconds
 class BPWatcher {
   constructor(apiKey, channel, rpcEndpoint, hyperionEndpoint) {
     this.apiKey = apiKey;
@@ -25,7 +25,7 @@ class BPWatcher {
     await this.setupClient();
     this.checkInterval = setInterval(() => {
       this.loadProducers();
-    }, 10000);
+    }, PRODUCER_POLL_INTERVAL);
   }
 
   async loadProducers(filter) {
