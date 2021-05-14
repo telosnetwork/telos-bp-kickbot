@@ -91,7 +91,6 @@ class BPWatcher {
   }
 
   async handleAction(data) {
-    return;
     if (data.content.act.name == "regproducer")
       await this.postToChannel(
         `${data.content.producer.toUpperCase()} Registered at block ${
