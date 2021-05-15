@@ -4,7 +4,7 @@ const eosjs = require("eosjs");
 const HyperionSocketClient = require("@eosrio/hyperion-stream-client").default;
 const INCREASE_EMOJI = "🚨";
 const DECREASE_EMOJI = "🟢";
-const PRODUCER_POLL_INTERVAL = 10 * 1000;  // 10 seconds
+const PRODUCER_POLL_INTERVAL = 10 * 1000; // 10 seconds
 class BPWatcher {
   constructor(apiKey, channel, rpcEndpoint, hyperionEndpoint) {
     this.apiKey = apiKey;
@@ -38,12 +38,12 @@ class BPWatcher {
 
     let results = [];
     result.rows.forEach((row) => {
-      if (!filter || filter.indexOf(row.owner) != -1) this.checkProducer(row, results);
+      if (!filter || filter.indexOf(row.owner) != -1)
+        this.checkProducer(row, results);
       this.producers[row.owner] = row;
     });
 
-    if (results.length)
-      this.postToChannel(results.join("\n"))
+    if (results.length) this.postToChannel(results.join("\n"));
   }
 
   checkProducer(bp, results) {
@@ -52,8 +52,17 @@ class BPWatcher {
       let blocksMissed = bp.missed_blocks_per_rotation;
       let oldBlocksMissed = old.missed_blocks_per_rotation;
       if (blocksMissed != 0 && blocksMissed != oldBlocksMissed) {
-        let difference = blocksMissed - oldBlocksMissed
-        results.push(`${bp.owner} has now missed ${blocksMissed} this rotation, ${difference ? "an increase" : "a decrease (previous missed blocks sample was from a fork)"} of ${difference} - ${(difference ? INCREASE_EMOJI : DECREASE_EMOJI).repeat(Math.abs(difference))}`);
+        let difference = blocksMissed - oldBlocksMissed;
+        results.push(
+          `${bp.owner} has now missed ${blocksMissed} this rotation, ${
+            difference
+              ? "an increase"
+              : "a decrease (previous missed blocks sample was from a fork)"
+          } of ${difference} - ${(difference
+            ? INCREASE_EMOJI
+            : DECREASE_EMOJI
+          ).repeat(Math.abs(difference))}`
+        );
       }
     }
 
@@ -129,14 +138,18 @@ class BPWatcher {
       return;
     }
 
-    axios({
-      method: "post",
-      url: `https://api.telegram.org/${this.apiKey}/sendMessage`,
-      data: {
-        channel: this.channel,
-        text,
-      },
-    });
+    try {
+      axios({
+        method: "post",
+        url: `https://api.telegram.org/${this.apiKey}/sendMessage`,
+        data: {
+          channel: this.channel,
+          text,
+        },
+      });
+    } catch (e) {
+      console.error(`Failed to call telegram API: ${e.message}`);
+    }
   }
 
   registerStreams() {
