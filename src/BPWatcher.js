@@ -131,7 +131,7 @@ class BPWatcher {
 
     axios({
       method: "post",
-      url: `https://api.telegram.org/${this.apikey}/sendMessage`,
+      url: `https://api.telegram.org/${this.apiKey}/sendMessage`,
       data: {
         channel: this.channel,
         text,
