@@ -143,7 +143,7 @@ class BPWatcher {
         method: "post",
         url: `https://api.telegram.org/${this.apiKey}/sendMessage`,
         data: {
-          channel: this.channel,
+          chat_id: this.channel,
           text,
         },
       });
