@@ -9,11 +9,14 @@ Currently, the following events are:
 * Validator has UNREGISTERED
 * Validator has missed a block
 
-## kickbot.js
+## index.js
 This is the main package script.
 
 To run this package:
-`node kickbot.js`
+`node index.js`
+
+## bpvalidator.js
+This does the heavy-lifting.  It is called by index.js.
 
 ## strut.js
 This is a unit test file to verify the correct REG/UNREG events are working.
@@ -21,11 +24,7 @@ This is a unit test file to verify the correct REG/UNREG events are working.
 To run this package:
 `node strut.js`
 
-## deltas.js
-This is a unit test file to verify the blockchain delta stream is working.
 
-To run this package:
-`node deltas.js`
 
 
 
