@@ -15,7 +15,7 @@ This is the main package script.
 To run this package:
 `node index.js`
 
-## bpvalidator.js
+## src/BPWatcher.js
 This does the heavy-lifting.  It is called by index.js.
 
 ## strut.js
