@@ -5,8 +5,9 @@ const HyperionSocketClient = require("@eosrio/hyperion-stream-client").default;
 const INCREASE_EMOJI = "🚨";
 const DECREASE_EMOJI = "🟢";
 const PRODUCER_POLL_INTERVAL = 10 * 1000; // 10 seconds
+const TG_ACCOUNTS = require('./TelegramAccounts')
 class BPWatcher {
-  constructor(apiKey, channel, rpcEndpoint, hyperionEndpoint) {
+  constructor(apiKey, channel, rpcEndpoint, hyperionEndpoint, missedBlockThresshold) {
     this.apiKey = apiKey;
     this.channel = channel;
     this.rpc = new eosjs.JsonRpc(rpcEndpoint, { fetch });
@@ -14,6 +15,7 @@ class BPWatcher {
     this.producers = {};
     //this.startFrom = "2021-04-01T00:00:00.000Z";
     this.startFrom = 0;
+    this.missedBlockThresshold = missedBlockThresshold;
   }
 
   setDebug(debug) {
@@ -53,8 +55,11 @@ class BPWatcher {
       let oldBlocksMissed = old.missed_blocks_per_rotation;
       if (blocksMissed != 0 && blocksMissed != oldBlocksMissed) {
         let difference = blocksMissed - oldBlocksMissed;
+        if (difference <= this.missedBlockThresshold)
+          return;
+
         results.push(
-          `${bp.owner} has now missed ${blocksMissed} this rotation, ${
+          `${bp.owner}${TG_ACCOUNTS.hasOwnProperty(bp.owner) ? ` (${TG_ACCOUNTS[bp.owner].join(' ')})` : ""} has now missed ${blocksMissed} this rotation, ${
             difference
               ? "an increase"
               : "a decrease (previous missed blocks sample was from a fork)"
