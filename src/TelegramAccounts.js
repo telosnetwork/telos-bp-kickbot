@@ -7,7 +7,7 @@ module.exports = {
     "gyftieblocks ": ["@wmw509"],
     "infinitybloc": ["@Infinityblocio"],
     "kainosblkpro": ["@HartParr"],
-    "southafrica1": ["@rorymapstone"],
+    "southafrica1": ["@rorymapstone","@Andreas86"],
     "teamgreymass": ["@jestagram"],
     "teleologytls": ["@ryanlj"],
     "telosarabia1": ["@basel_alkaddoumi"],
@@ -23,5 +23,7 @@ module.exports = {
     "theteloscrew": ["@captaincryptohd"],
     "persiantelos": ["@Parsieos","@aliiraghamii"],
     "votetelosusa": ["@EOSUSA_Michael"],
-
+    "amsterdam": ["@cc32d9","@blessendor"],
+    "bp.boid": ["@I_Seth"],
+    "goodblocktls": ["@Dapperd"],
 }
