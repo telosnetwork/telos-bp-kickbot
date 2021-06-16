@@ -8,4 +8,6 @@ module.exports = {
     "telosarabia1": ["@basel_alkaddoumi"],
     "gyftieblocks ": ["@wmw509"],
     "votetelosusa": ["@EOSUSA_Michael"],
+    "teleologytls": ["@ryanlj"],
+    "kainosblkpro": ["@HartParr"],
 }
