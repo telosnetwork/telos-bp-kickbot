@@ -1,9 +1,12 @@
 module.exports = {
+    "amsterdam": ["@cc32d9","@blessendor"],
+    "bp.boid": ["@I_Seth"],
     "blindblocart": ["@BlindBlocArtJerry"],
     "caleosblocks": ["@foflexity"],
     "cryptosuviio": ["@SolariusFI"],
     "eosphereiobp": ["@rossco99"],
     "eosriobrazil": ["@igorls"],
+    "goodblocktls": ["@Dapperd"],
     "gyftieblocks ": ["@wmw509"],
     "infinitybloc": ["@Infinityblocio"],
     "kainosblkpro": ["@HartParr"],
@@ -22,8 +25,5 @@ module.exports = {
     "theteloscope": ["@LuisMeijueiro"],
     "theteloscrew": ["@captaincryptohd"],
     "persiantelos": ["@Parsieos","@aliiraghamii"],
-    "votetelosusa": ["@EOSUSA_Michael"],
-    "amsterdam": ["@cc32d9","@blessendor"],
-    "bp.boid": ["@I_Seth"],
-    "goodblocktls": ["@Dapperd"],
+    "votetelosusa": ["@EOSUSA_Michael"],  
 }
