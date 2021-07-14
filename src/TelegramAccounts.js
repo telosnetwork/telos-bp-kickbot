@@ -15,7 +15,7 @@ module.exports = {
     "teleologytls": ["@ryanlj"],
     "telosarabia1": ["@basel_alkaddoumi"],
     "telosboston1": ["@telosboston"],
-    "telosgermany": ["@StefanTelosGermany"],
+    "telosgermany": ["@StefanGenerEOS","@RalfWeinand"],
     "telosglobal1": ["@kquainta"],
     "telosgreenbp": ["@sukeshtedla"],
     "teloskitchen": ["@dappdever"],
