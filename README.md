@@ -15,6 +15,9 @@ This is the main package script.
 To run this package:
 `node index.js`
 
+To run with PM2:
+`sudo pm2 start index.js --name kickbot`
+
 ## src/BPWatcher.js
 This does the heavy-lifting.  It is called by index.js.
 
