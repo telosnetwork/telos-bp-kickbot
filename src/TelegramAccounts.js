@@ -5,6 +5,7 @@ module.exports = {
     "caleosblocks": ["@foflexity"],
     "creativblock": ["@AjinkyaJagtap"],
     "cryptosuviio": ["@SolariusFI"],
+    "dappetizerbp": ["@bransdotcom"],
     "eosphereiobp": ["@rossco99"],
     "eosriobrazil": ["@igorls"],
     "goodblocktls": ["@Dapperd"],
