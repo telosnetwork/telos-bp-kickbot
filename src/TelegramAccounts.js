@@ -28,6 +28,6 @@ module.exports = {
     "telosunlimit": ["@macanico"],
     "theteloscope": ["@LuisMeijueiro"],
     "theteloscrew": ["@captaincryptohd"],
-    "persiantelos": ["@Parsieos","@aliiraghamii"],
+    "persiantelos": ["@Parsieos","@Ali_Raghami","@Vahidhossa"],
     "votetelosusa": ["@EOSUSA_Michael"],  
 }
