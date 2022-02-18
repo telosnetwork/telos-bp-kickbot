@@ -8,7 +8,7 @@ module.exports = {
     "dappetizerbp": ["@bransdotcom"],
     "eosphereiobp": ["@rossco99"],
     "eosriobrazil": ["@igorls"],
-    "goodblocktls": ["@Dapperd"],
+    "goodblocktls": ["@NathanielMoss"],
     "gyftieblocks": ["@wmw509"],
     "infinitybloc": ["@Infinityblocio"],
     "kainosblkpro": ["@HartParr"],
