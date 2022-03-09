@@ -13,6 +13,7 @@ module.exports = {
     "infinitybloc": ["@Infinityblocio"],
     "kainosblkpro": ["@HartParr"],
     "southafrica1": ["@rorymapstone","@Andreas86"],
+    "sentnlagents": ["ankh2054"],
     "teamgreymass": ["@jestagram"],
     "teleologytls": ["@ryanlj"],
     "telosarabia1": ["@basel_alkaddoumi"],
