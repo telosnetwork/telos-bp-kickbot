@@ -32,4 +32,5 @@ module.exports = {
     "theteloscrew": ["@captaincryptohd"],
     "persiantelos": ["@Parsieos","@Ali_Raghami","@Vahidhossa"],
     "votetelosusa": ["@EOSUSA_Michael"],  
+    "votedutcheos": ["@ArjenDT"], 
 }
