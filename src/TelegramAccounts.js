@@ -35,4 +35,5 @@ module.exports = {
     "votetelosusa": ["@EOSUSA_Michael"],  
     "votedutcheos": ["@ArjenDT"],
     "telosindiabp": ["@thatzprem"],
+    "telosculture": ["@BrianT7", "@MiloSx7"],
 }
