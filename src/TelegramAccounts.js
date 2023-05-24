@@ -1,7 +1,7 @@
 module.exports = {
     "amsterdam": ["@cc32d9","@blessendor"],
     "bp.adex": ["@Avm07"],
-    "bp.boid": ["@I_Seth","@JorisThijs"],
+    "bp.boid": ["@I_Seth","@boidcom"],
     "blindblocart": ["@BlindBlocArtJerry"],
     "caleosblocks": ["@foflexity"],
     "creativblock": ["@AjinkyaJagtap"],
@@ -15,6 +15,7 @@ module.exports = {
     "kainosblkpro": ["@HartParr"],
     "southafrica1": ["@rorymapstone","@Andreas86"],
     "sentnlagents": ["ankh2054"],
+    "swapsicledex": ["@Rozza1227"],
     "teamgreymass": ["@jestagram"],
     "teleologytls": ["@ryanlj"],
     "telosarabia1": ["@basel_alkaddoumi"],
@@ -36,4 +37,5 @@ module.exports = {
     "votetelosusa": ["@EOSUSA_Michael"],  
     "votedutcheos": ["@ArjenDT"],
     "telosindiabp": ["@thatzprem"],
+    "fortisblocks": ["@lorenzo_dla", "@jesusg17"],
 }
