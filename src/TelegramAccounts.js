@@ -1,6 +1,6 @@
 module.exports = {
     "amsterdam": ["@cc32d9","@blessendor"],
-    "bp.boid": ["@I_Seth","@JorisThijs"],
+    "bp.boid": ["@I_Seth","@boidcom"],
     "blindblocart": ["@BlindBlocArtJerry"],
     "caleosblocks": ["@foflexity"],
     "creativblock": ["@AjinkyaJagtap"],
