@@ -10,6 +10,7 @@ module.exports = {
     "eosphereiobp": ["@rossco99"],
     "eosriobrazil": ["@igorls"],
     "goodblocktls": ["@NathanielMoss"],
+    "greymass"    : ["@jestagram"],
     "gyftieblocks": ["@wmw509"],
     "infinitybloc": ["@Infinityblocio"],
     "kainosblkpro": ["@HartParr"],
