@@ -30,7 +30,7 @@ module.exports = {
     "teloskoreabp": ["@t_e_o"],
     "telosmadrid1": ["@Mikelito74"],
     "telosmiamibp": ["@qubicles"],
-    "telosuknodes": ["@EOS_Nottingham"],
+    "telosuknodes": ["@theblockstalk"],
     "telosunlimit": ["@macanico"],
     "theteloscope": ["@LuisMeijueiro"],
     "theteloscrew": ["@captaincryptohd"],
