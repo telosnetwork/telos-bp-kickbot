@@ -16,7 +16,7 @@ module.exports = {
     "kainosblkpro": ["@HartParr"],
     "southafrica1": ["@rorymapstone","@Andreas86"],
     "sentnlagents": ["ankh2054"],
-    "swapsicledex": ["@SwapsicleLee"],
+    "swapsicledex": ["@firepol"],
     "teamgreymass": ["@jestagram"],
     "teleologytls": ["@ryanlj"],
     "telosarabia1": ["@basel_alkaddoumi"],
