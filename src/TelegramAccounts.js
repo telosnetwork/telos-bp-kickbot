@@ -1,6 +1,7 @@
 module.exports = {
     "amsterdam"   : ["@cc32d9","@blessendor"],
     "bp.adex"     : ["@Avm07"],
+    "bp.any"      : ["@Ali_Raghami"],
     "bp.boid"     : ["@I_Seth","@boidcom"],
     "blindblocart": ["@BlindBlocArtJerry"],
     "caleosblocks": ["@foflexity"],
@@ -34,7 +35,7 @@ module.exports = {
     "telosunlimit": ["@macanico"],
     "theteloscope": ["@LuisMeijueiro"],
     "theteloscrew": ["@captaincryptohd"],
-    "persiantelos": ["@Parsieos","@Ali_Raghami","@Vahidhossa"],
+    "persiantelos": ["@Parsieos","@Vahidhossa"],
     "votetelosusa": ["@EOSUSA_Michael"],  
     "votedutcheos": ["@ArjenDT"],
     "telosindiabp": ["@thatzprem"],
