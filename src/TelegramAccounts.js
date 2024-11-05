@@ -15,6 +15,7 @@ module.exports = {
     "gyftieblocks": ["@wmw509"],
     "infinitybloc": ["@Infinityblocio"],
     "kainosblkpro": ["@HartParr"],
+    "ledgerwisete": ["@jorfermo"],
     "mosaicblocks": ["@TelosHR"],
     "southafrica1": ["@rorymapstone","@Andreas86"],
     "sentnlagents": ["ankh2054"],
