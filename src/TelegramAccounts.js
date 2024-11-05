@@ -46,4 +46,5 @@ module.exports = {
     "velaryonbloc": ["@Rozza1227"],
     "anydextestnt": ["@Ali_Raghami"],
     "teloskiwinzz": ["@TelosKiwi"],
+    "blockbastrds": ["@mrquark28"],
 }
