@@ -44,4 +44,5 @@ module.exports = {
     "fortisblocks": ["@lorenzo_dla", "@jesusg17"],
     "velaryonbloc": ["@Rozza1227"],
     "anydextestnt": ["@Ali_Raghami"],
+    "teloskiwinzz": ["@TelosKiwi"],
 }
