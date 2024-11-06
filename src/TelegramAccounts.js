@@ -3,6 +3,7 @@ module.exports = {
     "bp.adex"     : ["@Avm07"],
     "bp.any"      : ["@Ali_Raghami"],
     "bp.boid"     : ["@I_Seth","@boidcom"],
+    "bp.yknot"    : ["@ddkrynauw"],
     "caleosblocks": ["@foflexity"],
     "creativblock": ["@AjinkyaJagtap"],
     "cryptosuviio": ["@SolariusFI"],
