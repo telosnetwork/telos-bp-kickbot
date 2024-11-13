@@ -45,4 +45,5 @@ module.exports = {
     "anydextestnt": ["@Ali_Raghami"],
     "teloskiwinzz": ["@TelosKiwi"],
     "blockbastrds": ["@mrquark28"],
+    "bigironbptex": ["@nathanhennigh"],
 }
