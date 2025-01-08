@@ -27,7 +27,7 @@ module.exports = {
     "telosgermany": ["@StefanGenerEOS","@RalfWeinand"],
     "telosgreenbp": ["@sukeshtedla"],
     "tlosimperabp": ["@zaragast"],
-    "teloskitchen": ["@dappdever"],
+    "teloskitchen": ["@dappdever","@Sebastian_MB"],
     "teloskoreabp": ["@t_e_o"],
     "telosmadrid1": ["@Mikelito74"],
     "telosmiamibp": ["@qubicles"],
