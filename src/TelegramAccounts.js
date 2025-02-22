@@ -18,6 +18,7 @@ module.exports = {
     "mosaicblocks": ["@TelosHR"],
     "southafrica1": ["@rorymapstone","@Andreas86"],
     "sentnlagents": ["ankh2054"],
+    "smartelos": ["smartelosbp"],
     "swapsicledex": ["@firepol"],
     "teamgreymass": ["@jestagram"],
     "teleologytls": ["@ryanlj"],
