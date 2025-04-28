@@ -47,4 +47,5 @@ module.exports = {
     "teloskiwinzz": ["@TelosKiwi"],
     "blockbastrds": ["@mrquark28"],
     "bigironbptex": ["@nathanhennigh"],
+    "orbitalblock": ["@GoukenKO"]
 }
